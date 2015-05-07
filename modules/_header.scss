@@ -1,0 +1,16 @@
+@import 'header/nav';
+
+.header {
+  padding: 1rem;
+  background-color: $color-brand-blue;
+}
+
+.header__title {
+  margin: 0;
+  color: white;
+}
+
+.header__link {
+  text-decoration: none;
+  color: inherit;
+}

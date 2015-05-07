@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Guide example</title>
+    <link rel="stylesheet" href="bundle.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__title">
+        <a class="header__link" href="/">CSS Guide example</a>
+      </h1>
+
+      <nav class="header-nav">
+        <a class="header-nav__link" href="/">Home</a>
+        <a class="header-nav__link is-current" href="/sign-in">Sign in</a>
+      </nav>
+    </header>
+
+    <form class="sign-in">
+      <h2 class="sign-in__title">Sign in</h2>
+
+      <div class="sign-in__field">
+        <label class="sign-in__label" for="email">Email</label>
+        <input class="sign-in__input" id="email" type="email">
+      </div>
+
+      <div class="sign-in__field">
+        <label class="sign-in__label" for="password">Password</label>
+        <input class="sign-in__input" id="password" type="password">
+      </div>
+
+      <div class="sign-in__field">
+        <button class="sign-in__submit" type="submit">Sign in</button>
+        <button class="sign-in__reset" type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>

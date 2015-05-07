@@ -1,0 +1,19 @@
+.header-nav {
+  display: flex;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(white, .3);
+}
+
+.header-nav__link {
+  text-decoration: none;
+  color: white;
+
+  &.is-current {
+    font-weight: bold;
+  }
+
+  &:not(:last-child) {
+    margin-right: .5rem;
+  }
+}

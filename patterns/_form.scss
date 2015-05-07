@@ -1,0 +1,26 @@
+@mixin form {
+  padding: 2rem;
+  border: 1px solid $color-brand-gray;
+}
+
+@mixin form__field {
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+@mixin form__label {
+  display: block;
+  margin-bottom: .3rem;
+}
+
+@mixin form__input {
+  display: block;
+}
+
+@mixin form__button {
+  padding: .5rem;
+  border: none;
+  background: transparent;
+  font: inherit;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "css-guide-example",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-sass --output-style expanded app.scss | autoprefixer > bundle.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^5.1.1",
+    "node-sass": "^3.0.0"
+  }
+}
