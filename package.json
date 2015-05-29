@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "build": "node-sass --output-style expanded app.scss | autoprefixer > bundle.css"
+    "build": "node-sass --include-path ./node_modules/css-patterns/stylesheets --output-style expanded app.scss | autoprefixer > bundle.css"
   },
   "devDependencies": {
     "autoprefixer": "^5.1.1",
+    "css-patterns": "^0.2.0",
     "node-sass": "^3.0.0"
   }
 }

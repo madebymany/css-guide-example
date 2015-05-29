@@ -19,8 +19,7 @@
 }
 
 @mixin form__button {
+  @include unstyled-input;
   padding: .5rem;
-  border: none;
-  background: transparent;
-  font: inherit;
+  cursor: pointer;
 }
